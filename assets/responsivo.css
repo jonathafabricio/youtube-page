@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+    .nav-group {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    /* Estilos da barra de navegação para dispositivos móveis */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .nav-icon,
+    .logo {
+        width: 90px;
+        height: 20px;
+    }
+
+    input {
+        width: 85%;
+        /* Preencha toda a largura disponível */
+        height: 30px;
+        /* Altura desejada da barra de pesquisa */
+        max-width: 100%;
+        /* Certifique-se de que não vaze para fora da tela */
+        margin: 10px 0;
+        /* Espaçamento superior e inferior */
+        border: 1px solid black;
+    }
+
+    .search-button {
+        width: 50px;
+        height: 34px;
+        border: 1px solid black;
+
+    }
+
+    /* Estilos do vídeo principal para dispositivos móveis */
+    .video-and-comments {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    iframe {
+        height: auto;
+        width: 100%;
+    }
+
+    .video-info {
+        text-align: left; /* Alinhe o título e as informações do vídeo à esquerda */
+        width: 100%; /* Garanta que a largura seja 100% */
+    }
+
+
+    .video-stat {
+        flex-direction: row;
+        align-items: center;
+        max-width: 100%; /* Defina uma largura máxima */
+        overflow-x: auto;
+        font-size: 12px;
+        gap: 6px;
+        margin: 10px 0px -22px 0px;
+    }
+
+    .video-stat img {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .video-title {
+        text-align: left; /* Alinhe o título à esquerda */
+        font-size: 20px; /* Ajuste o tamanho da fonte do título */
+      }
+    
+
+      #p-mobile {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        text-align: left;
+        margin: -11px 0 0 11px;
+        padding: 5px;
+      }
+
+    /* Estilos da barra lateral para dispositivos móveis */
+    aside {
+        width: 100%;
+        padding: 10px; /* Adicione preenchimento para espaçamento interno */
+        box-sizing: border-box; /* Garanta que o preenchimento não afete a largura total */
+    }
+
+
+    .container {
+        flex-direction: column;
+        max-width: 100%; /* Certifique-se de que a largura não ultrapasse a tela */
+        overflow-x: hidden; /
+    }
+
+    .video-about {
+        display: flex;
+        align-items: center; /* Alinhe verticalmente os elementos */
+        text-align: left; /* Alinhe o texto à esquerda */
+    }
+
+    .avatar {
+        display: flex;
+        align-items: center; /* Alinhe verticalmente os elementos */
+    }
+
+    .avatar img {
+        width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+        height: auto;
+        margin-right: 10px; /* Adicione um espaço à direita da imagem */
+    }
+
+    .youtuber-name {
+        display: flex;
+        flex-direction: column; /* Empilhe o texto verticalmente */
+        align-items: flex-start; 
+        margin: 0px 0px -80px -5px;
+    }
+
+    .subscribe-button{
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+
+
+}
