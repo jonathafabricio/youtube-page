@@ -1,23 +1,22 @@
-@media (min-width: 716px) {
-    body {
-        background-color: red
-    }
-}
-
-@media (max-width: 716px) {
-    body {
-        background-color: rgba(0, 0, 255, 0.15);
-    }
-
+@media (max-width: 716px) {    
     .container {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .nav-group {
+        margin-top: 8px;
+    }
+    
     .video-and-comments {
         width: 95% !important;
         order: 1;
     }
+
+    .recommend {      
+        width: 25rem;
+       }
 
     .video-about {
         order: 2;
@@ -29,7 +28,6 @@
 }
 
 @media (max-width: 534px) {
-
     .logo,
     .menu {
         display: none;
@@ -38,7 +36,9 @@
     .subscribe-button {
         margin-bottom: 25px;
     }
+
 }
+
 
 @media (max-width: 458px) {
     .video-stat {
@@ -66,13 +66,7 @@
 @media (max-width: 366px) {
     .video-and-comments {
         width: 99% !important;
+
     }
 
-    .search-button {
-        border: 2px solid blue !important;
-    }
-
-    .search-container input {
-        background-color: red;
-    }
 }
