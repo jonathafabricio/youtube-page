@@ -1,0 +1,78 @@
+@media (min-width: 716px) {
+    body {
+        background-color: red
+    }
+}
+
+@media (max-width: 716px) {
+    body {
+        background-color: rgba(0, 0, 255, 0.15);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-and-comments {
+        width: 95% !important;
+        order: 1;
+    }
+
+    .video-about {
+        order: 2;
+    }
+
+    aside {
+        order: 3;
+    }
+}
+
+@media (max-width: 534px) {
+
+    .logo,
+    .menu {
+        display: none;
+    }
+
+    .subscribe-button {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 458px) {
+    .video-stat {
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 433px) {
+    .avatar {
+        margin: 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .subscribe-button {
+        width: 99% !important;
+        font-size: 12px !important;
+    }
+
+    .search-container input {
+        width: 250px;
+    }
+}
+
+@media (max-width: 366px) {
+    .video-and-comments {
+        width: 99% !important;
+    }
+
+    .search-button {
+        border: 2px solid blue !important;
+    }
+
+    .search-container input {
+        background-color: red;
+    }
+}
